@@ -1,0 +1,37 @@
+target/
+*.class
+*.log
+maven-error.txt
+
+# Local build, database and temporary files
+*.db
+*.mv.db
+*.trace.db
+*.h2.db
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Local secrets and key material
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.crt
+*.cer
+*.der
+
+# IDE and operating-system files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+.classpath
+.project
+.settings/
+Thumbs.db
